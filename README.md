@@ -10,7 +10,7 @@ El objetivo final es generar datasets analíticos que permitan estudiar el poten
 
 ## Arquitectura del Pipeline
 
-![Arquitectura del pipeline](Img/arquitectura_pipeline.png)
+![Arquitectura del pipeline](Img/arq.png)
 
 El flujo de datos implementado en el proyecto sigue la siguiente arquitectura:
 
