@@ -39,4 +39,3 @@ while True:
         print("Error:", e)
 
     time.sleep(60)
-    
