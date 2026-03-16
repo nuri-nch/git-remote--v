@@ -19,15 +19,12 @@ def test_dataframe_transformation():
     spark = SparkSession.builder.master("local[*]").appName("test").getOrCreate()
 
     # datos simulados (como si vinieran de Kafka o una API)
-    data = [
-        (20, 50),
-        (25, 60)
-    ]
+    data = [(20, 50), (25, 60)]
 
     df = spark.createDataFrame(data, ["temperature", "humidity"])
 
     # transformación típica de ETL
-    df_transformed = df.withColumn("temp_fahrenheit", col("temperature") * 9/5 + 32)
+    df_transformed = df.withColumn("temp_fahrenheit", col("temperature") * 9 / 5 + 32)
 
     result = df_transformed.collect()
 
