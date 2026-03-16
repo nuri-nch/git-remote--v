@@ -144,6 +144,9 @@ ejecución del script ETL
 construcción de la imagen Docker
 
 ## Estructura del Proyecto
+
+```text
+
 project
 │
 ├── script_kafka
@@ -178,3 +181,5 @@ project
 │      DOcumentacion de los avances 
 │
 └── README.md
+
+```
