@@ -35,7 +35,7 @@ jobs:
 
     - name: Run Spark tests
       run: |
-        pytest tests/
+        pytest test/
 
     - name: Validate ETL pipeline runs
       run: |
