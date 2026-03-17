@@ -151,34 +151,34 @@ project
 │
 ├── script_kafka
 │   └── weather_producer.py
-│   Código encargado de la ingestión de datos meteorológicos hacia Kafka
+│   Código encargado de la ingestión de datos meteorológicos hacia Kafka.
 │
 ├── script_spark
 │   ├── silver_weather_etl.py
 │   └── gold_weather_metrics.py
-│   Scripts de transformación y generación de datasets analíticos
+│   Scripts de transformación y generación de datasets analíticos.
 │
 ├── script_airflow
 │   └── dags
 │       └── spark_remote_etl.py
-│   Definición del DAG que orquesta el pipeline
+│   Definición del DAG que orquesta el pipeline.
 │
 ├── test
 │   └── test_spark_transform.py
-│   Pruebas unitarias para validar transformaciones de Spark
+│   Pruebas unitarias para validar transformaciones de Spark.
 │
 ├── requirements.txt
-│   Dependencias del proyecto
+│   Dependencias del proyecto.
 │
 ├── Dockerfile
 │   Configuración para ejecutar el proyecto en contenedor
 │
 ├── launch_spark_airflow.ps1
-│   Script para desplegar infraestructura en AWS
+│   Script para desplegar infraestructura en AWS.
 │
 ├── Docs
 │   └──Avances.ipynb
-│      DOcumentacion de los avances 
+│      DOcumentacion de los avances y preguntas de negocio.
 │
 └── README.md
 
